@@ -19,8 +19,7 @@ public class Test {
 
         List<String> list = Arrays.asList("哈哈");
         for (int i = 0; i < list.size(); i++) {
-
-
+            System.out.println("添加了一个输出语句");
         }
 
         list.forEach(s -> {
